@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menu danh mục tin tức trên Toolbar -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tin tức trong nước -->
+    <item
+        android:id="@+id/bottom_trongnuoc"
+        android:title="Tin trong nước" />
+    <!-- Tin tức quốc tế -->
+    <item
+        android:id="@+id/bottom_quocte"
+        android:title="Tin quốc tế" />
+</menu>

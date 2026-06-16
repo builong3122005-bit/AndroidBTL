@@ -1,0 +1,114 @@
+<!-- Giao diện hộp thoại sửa hồ sơ cá nhân (Edit Profile Dialog) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <!-- Tiêu đề hộp thoại -->
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Sửa hồ sơ"
+        android:textColor="#1E1E24"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Trường Họ tên -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Họ và tên"
+        android:textColor="#5E6E82"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_caidat"
+        android:paddingHorizontal="12dp"
+        android:hint="Nhập họ và tên"
+        android:textColor="#1E1E24"
+        android:textColorHint="#7E8B9B" />
+
+    <!-- Trường Email -->
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Email"
+        android:textColor="#5E6E82"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_caidat"
+        android:paddingHorizontal="12dp"
+        android:hint="Nhập email"
+        android:inputType="textEmailAddress"
+        android:textColor="#1E1E24"
+        android:textColorHint="#7E8B9B"/>
+
+    <!-- Trường Số điện thoại -->
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Số điện thoại"
+        android:textColor="#5E6E82"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_caidat"
+        android:paddingHorizontal="12dp"
+        android:hint="Nhập số điện thoại"
+        android:inputType="phone"
+        android:textColor="#1E1E24"
+        android:textColorHint="#7E8B9B" />
+
+    <!-- Nút Hủy và Lưu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <!-- Nút Hủy -->
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HỦY"
+            android:textColor="#7E8B9B"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"/>
+
+        <!-- Nút Lưu -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="LƯU"
+            android:textColor="#4F46E5"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Giao diện hiển thị một dòng item quốc gia/tiền tệ trong danh sách chọn (RecyclerView Item) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="6dp"
+    android:elevation="2dp"
+    android:padding="16dp">
+
+    <!-- Cờ quốc gia -->
+    <ImageView
+        android:id="@+id/imgAnhNuoc"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!-- Thông tin tên nước và mã tiền tệ -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <!-- Tên quốc gia/Đồng tiền -->
+        <TextView
+            android:id="@+id/txtTenQuocGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đồng Việt Nam"
+            android:textColor="#1E1E24"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Mã tiền tệ (VND, USD...) -->
+        <TextView
+            android:id="@+id/txtMaTienTe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VND"
+            android:layout_marginTop="4dp"
+            android:textColor="#5E6E82"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</LinearLayout>

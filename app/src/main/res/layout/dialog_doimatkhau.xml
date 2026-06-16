@@ -1,0 +1,119 @@
+<!-- Giao diện hộp thoại đổi mật khẩu (Change Password Dialog) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Tiêu đề hộp thoại -->
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Đổi mật khẩu"
+        android:textColor="#1E1E24"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Nhãn Mật khẩu cũ -->
+    <TextView
+        android:id="@+id/tvOldpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Mật khẩu cũ"
+        android:textColor="#5E6E82"
+        android:textStyle="bold" />
+
+    <!-- Ô nhập mật khẩu cũ -->
+    <EditText
+        android:id="@+id/edtOldpassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_caidat"
+        android:paddingHorizontal="12dp"
+        android:hint="Nhập mật khẩu cũ"
+        android:inputType="textPassword"
+        android:textColor="#1E1E24"
+        android:textColorHint="#7E8B9B" />
+
+    <!-- Nhãn Mật khẩu mới -->
+    <TextView
+        android:id="@+id/tvNewpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Mật khẩu mới"
+        android:textColor="#5E6E82"
+        android:textStyle="bold" />
+
+    <!-- Ô nhập mật khẩu mới -->
+    <EditText
+        android:id="@+id/edtNewpassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_caidat"
+        android:paddingHorizontal="12dp"
+        android:hint="Nhập mật khẩu mới"
+        android:inputType="textPassword"
+        android:textColor="#1E1E24"
+        android:textColorHint="#7E8B9B" />
+
+    <!-- Nhãn Xác nhận mật khẩu mới -->
+    <TextView
+        android:id="@+id/tvConfirmNP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Xác nhận mật khẩu mới"
+        android:textColor="#5E6E82"
+        android:textStyle="bold" />
+
+    <!-- Ô nhập xác nhận mật khẩu mới -->
+    <EditText
+        android:id="@+id/edtConfirmnp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_caidat"
+        android:paddingHorizontal="12dp"
+        android:hint="Nhập lại mật khẩu mới"
+        android:inputType="textPassword"
+        android:textColor="#1E1E24"
+        android:textColorHint="#7E8B9B" />
+
+    <!-- Các nút hủy hoặc đồng ý đổi mật khẩu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <!-- Nút Hủy -->
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="HỦY"
+            android:textColor="#7E8B9B"
+            android:textStyle="bold" />
+
+        <!-- Nút Xác nhận -->
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:text="XÁC NHẬN"
+            android:textColor="#4F46E5"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

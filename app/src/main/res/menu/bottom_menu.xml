@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menu điều hướng bên dưới của ứng dụng -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tab chuyển đổi tiền tệ -->
+    <item
+        android:id="@+id/bottom_convert"
+        android:icon="@drawable/icon_convert"
+        android:title="Chuyển đổi"/>
+    <!-- Tab thông tin thị trường -->
+    <item
+        android:id="@+id/bottom_market"
+        android:icon="@drawable/ic_market"
+        android:title="Thị trường"/>
+    <!-- Tab tin tức tài chính -->
+    <item
+        android:id="@+id/bottom_news"
+        android:icon="@drawable/ic_news"
+        android:title="Tin tức"/>
+    <!-- Tab cài đặt ứng dụng -->
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Cài đặt"/>
+</menu>

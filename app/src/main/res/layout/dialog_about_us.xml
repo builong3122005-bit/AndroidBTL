@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Giao diện hộp thoại Về chúng tôi (About Us Dialog) -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollViewTerms"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nội dung giới thiệu về ứng dụng -->
+        <TextView
+            android:id="@+id/tvAbouUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đang tải..."
+            android:textSize="15sp"
+            android:textColor="#1E1E24"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="20dp"
+            />
+
+        <!-- Nút Đóng hộp thoại -->
+        <Button
+            android:id="@+id/btnCloseDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đóng"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/custom_btndangnhap"
+            app:backgroundTint="@null"
+            />
+    </LinearLayout>
+</ScrollView>

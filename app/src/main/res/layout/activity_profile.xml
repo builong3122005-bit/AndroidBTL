@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Giao diện màn hình hiển thị hồ sơ cá nhân người dùng -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F6FA"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <!-- Khu vực thanh công cụ tiêu đề hồ sơ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <!-- Nút quay lại (Back) -->
+        <ImageView
+            android:id="@+id/imgBack2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/icon_back"
+            app:tint="#1E1E24" />
+
+        <!-- Tiêu đề Hồ sơ -->
+        <TextView
+            android:id="@+id/tvHoso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Hồ sơ"
+            android:textColor="#1E1E24"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Nhãn và giá trị Tài khoản (User ID) -->
+    <TextView
+        android:id="@+id/tvUID1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản"
+        android:textSize="15sp"
+        android:textColor="#5E6E82"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvUID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khách"
+        android:textSize="18sp"
+        android:textColor="#1E1E24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Nhãn và giá trị Họ và tên (User Name) -->
+    <TextView
+        android:id="@+id/tvHoten1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Họ và tên"
+        android:textColor="#5E6E82"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvHoten2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khách"
+        android:textSize="18sp"
+        android:textColor="#1E1E24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <!-- Nhãn và giá trị Mật khẩu (Password) -->
+    <TextView
+        android:id="@+id/tvMatkhau1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Mật khẩu"
+        android:textColor="#5E6E82"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvMatkhau2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textSize="18sp"
+        android:textColor="#1E1E24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <!-- Nhãn và giá trị Email -->
+    <TextView
+        android:id="@+id/tvemail1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15sp"
+        android:textColor="#5E6E82"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvemail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khach@gmail.com"
+        android:textSize="18sp"
+        android:textColor="#1E1E24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <!-- Nhãn và giá trị Số điện thoại (Phone Number) -->
+    <TextView
+        android:id="@+id/tvSDT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Số điện thoại"
+        android:textColor="#5E6E82"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvSDT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0000000000"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textColor="#1E1E24"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <!-- Các nút thao tác chỉnh sửa hoặc xóa hồ sơ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp">
+
+        <!-- Nút sửa thông tin -->
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btndangnhap"
+            android:text="Sửa"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <!-- Nút xóa tài khoản -->
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btndangnhap"
+            android:text="Xóa"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+</LinearLayout>
