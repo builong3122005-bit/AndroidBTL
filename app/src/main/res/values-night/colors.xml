@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Day/Night theme dynamic colors (Night mode) -->
+    <color name="background_main">#121212</color>
+    <color name="text_primary">#E5E7EB</color>
+    <color name="text_secondary">#9CA3AF</color>
+    <color name="nav_background">#1F1F1F</color>
+    <color name="item_background">#1F1F1F</color>
+    <color name="divider_color">#374151</color>
+</resources>

@@ -15,9 +15,9 @@
         android:theme="@style/Theme.BaiTapLon"
         tools:targetApi="34">
 
-        <!-- Splash screen is the LAUNCHER -->
+     
         <activity
-            android:name=".SplashActivity"
+            android:name=".trang_chao.SplashActivity"
             android:theme="@style/Theme.BaiTapLon"
             android:exported="true">
             <intent-filter>
@@ -26,15 +26,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity" android:exported="false" />
-        <activity android:name=".DangKyActivity" android:exported="false" />
-        <activity android:name=".ConvertActivity" android:exported="false" />
-        <activity android:name=".ThiTruongActivity" android:exported="false" />
-        <activity android:name=".NewsActivity" android:exported="false" />
-        <activity android:name=".CaiDatActivity" android:exported="false" />
-        <activity android:name=".ChonDonViActivity" android:exported="false" />
-        <activity android:name=".BieuDoActivity" android:exported="false" />
-        <activity android:name=".ProfileActivity" android:exported="false" />
+        <activity android:name=".trang_dangnhap.MainActivity" android:exported="false" />
+        <activity android:name=".trang_dangky.DangKyActivity" android:exported="false" />
+        <activity android:name=".trang_chuyendoi.ConvertActivity" android:exported="false" />
+        <activity android:name=".trang_thitruong.ThiTruongActivity" android:exported="false" />
+        <activity android:name=".trang_tintuc.NewsActivity" android:exported="false" />
+        <activity android:name=".trang_caidat.CaiDatActivity" android:exported="false" />
+        <activity android:name=".trang_chuyendoi.ChonDonViActivity" android:exported="false" />
+        <activity android:name=".trang_bieudo.BieuDoActivity" android:exported="false" />
+        <activity android:name=".trang_hoso.ProfileActivity" android:exported="false" />
 
     </application>
 

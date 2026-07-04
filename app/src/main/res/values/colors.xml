@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Day/Night theme dynamic colors (Light mode) -->
+    <color name="background_main">#F5F6FA</color>
+    <color name="text_primary">#1E1E24</color>
+    <color name="text_secondary">#5E6E82</color>
+    <color name="nav_background">#FFFFFF</color>
+    <color name="item_background">#FFFFFF</color>
+    <color name="divider_color">#E5E7EB</color>
 </resources>
