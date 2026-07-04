@@ -8,13 +8,13 @@
     android:layout_margin="8dp"
     app:cardElevation="4dp"
     app:cardCornerRadius="8dp"
-    app:cardBackgroundColor="#FFFFFF">
+    app:cardBackgroundColor="@color/item_background">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#FFFFFF"
+        android:background="@color/item_background"
         android:padding="8dp">
 
         <!-- Hình ảnh đại diện tin tức -->
@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tiêu đề bài viết"
-                android:textColor="#1E1E24"
+                android:textColor="@color/text_primary"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:ellipsize="end"
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tóm tắt bài viết"
-                android:textColor="#5E6E82"
+                android:textColor="@color/text_secondary"
                 android:textSize="14sp"
                 android:layout_marginTop="4dp"
                 android:maxLines="2"
@@ -64,7 +64,7 @@
                 android:text="Ngày đăng"
                 android:textSize="12sp"
                 android:layout_marginTop="8dp"
-                android:textColor="#7E8B9B" />
+                android:textColor="@color/text_secondary" />
 
         </LinearLayout>
     </LinearLayout>

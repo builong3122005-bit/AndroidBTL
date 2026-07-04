@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#FFFFFF">
+    android:background="@color/item_background">
 
     <!-- Tiêu đề hộp thoại -->
     <TextView
@@ -14,7 +14,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:text="Sửa hồ sơ"
-        android:textColor="#1E1E24"
+        android:textColor="@color/text_primary"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="Họ và tên"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textStyle="bold" />
 
     <EditText
@@ -36,8 +36,8 @@
         android:background="@drawable/button_caidat"
         android:paddingHorizontal="12dp"
         android:hint="Nhập họ và tên"
-        android:textColor="#1E1E24"
-        android:textColorHint="#7E8B9B" />
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary" />
 
     <!-- Trường Email -->
     <TextView
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="Email"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textStyle="bold" />
 
     <EditText
@@ -58,8 +58,8 @@
         android:paddingHorizontal="12dp"
         android:hint="Nhập email"
         android:inputType="textEmailAddress"
-        android:textColor="#1E1E24"
-        android:textColorHint="#7E8B9B"/>
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"/>
 
     <!-- Trường Số điện thoại -->
     <TextView
@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="Số điện thoại"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textStyle="bold" />
 
     <EditText
@@ -80,8 +80,8 @@
         android:paddingHorizontal="12dp"
         android:hint="Nhập số điện thoại"
         android:inputType="phone"
-        android:textColor="#1E1E24"
-        android:textColorHint="#7E8B9B" />
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary" />
 
     <!-- Nút Hủy và Lưu -->
     <LinearLayout
@@ -96,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="HỦY"
-            android:textColor="#7E8B9B"
+            android:textColor="@color/text_secondary"
             android:textStyle="bold"
             android:background="@android:color/transparent"/>
 

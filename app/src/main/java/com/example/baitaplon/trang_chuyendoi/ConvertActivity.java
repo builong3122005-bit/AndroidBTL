@@ -328,11 +328,13 @@ public class ConvertActivity extends AppCompatActivity implements View.OnClickLi
                     double result = amount * rate;
                     numberBottom = formatResult(result);
                     tvmoney2.setText(numberBottom);
+                    tvmoney1.setText(numberTop.isEmpty() ? "0" : numberTop);
                 } else {
                     double amount = parseNumber(numberBottom);
                     double result = amount / rate;
                     numberTop = formatResult(result);
                     tvmoney1.setText(numberTop);
+                    tvmoney2.setText(numberBottom.isEmpty() ? "0" : numberBottom);
                 }
             } catch (NumberFormatException e) {
                 // Xử lý lỗi chuyển số

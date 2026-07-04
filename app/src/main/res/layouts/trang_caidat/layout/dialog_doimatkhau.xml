@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#FFFFFF"
+    android:background="@color/item_background"
     android:orientation="vertical"
     android:padding="20dp">
 
@@ -14,7 +14,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:text="Đổi mật khẩu"
-        android:textColor="#1E1E24"
+        android:textColor="@color/text_primary"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="Mật khẩu cũ"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textStyle="bold" />
 
     <!-- Ô nhập mật khẩu cũ -->
@@ -38,8 +38,8 @@
         android:paddingHorizontal="12dp"
         android:hint="Nhập mật khẩu cũ"
         android:inputType="textPassword"
-        android:textColor="#1E1E24"
-        android:textColorHint="#7E8B9B" />
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary" />
 
     <!-- Nhãn Mật khẩu mới -->
     <TextView
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="Mật khẩu mới"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textStyle="bold" />
 
     <!-- Ô nhập mật khẩu mới -->
@@ -61,8 +61,8 @@
         android:paddingHorizontal="12dp"
         android:hint="Nhập mật khẩu mới"
         android:inputType="textPassword"
-        android:textColor="#1E1E24"
-        android:textColorHint="#7E8B9B" />
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary" />
 
     <!-- Nhãn Xác nhận mật khẩu mới -->
     <TextView
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="Xác nhận mật khẩu mới"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textStyle="bold" />
 
     <!-- Ô nhập xác nhận mật khẩu mới -->
@@ -84,8 +84,8 @@
         android:paddingHorizontal="12dp"
         android:hint="Nhập lại mật khẩu mới"
         android:inputType="textPassword"
-        android:textColor="#1E1E24"
-        android:textColorHint="#7E8B9B" />
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary" />
 
     <!-- Các nút hủy hoặc đồng ý đổi mật khẩu -->
     <LinearLayout
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:text="HỦY"
-            android:textColor="#7E8B9B"
+            android:textColor="@color/text_secondary"
             android:textStyle="bold" />
 
         <!-- Nút Xác nhận -->

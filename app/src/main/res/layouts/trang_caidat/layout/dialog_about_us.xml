@@ -5,7 +5,7 @@
     android:id="@+id/scrollViewTerms"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#FFFFFF"
+    android:background="@color/item_background"
     android:padding="20dp">
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="Đang tải..."
             android:textSize="15sp"
-            android:textColor="#1E1E24"
+            android:textColor="@color/text_primary"
             android:lineSpacingExtra="4dp"
             android:paddingBottom="20dp"
             />

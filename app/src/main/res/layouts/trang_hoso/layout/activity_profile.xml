@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F6FA"
+    android:background="@color/background_main"
     android:orientation="vertical"
     tools:context=".ProfileActivity">
 
@@ -26,7 +26,7 @@
             android:layout_marginTop="5dp"
             android:layout_weight="0"
             app:srcCompat="@drawable/icon_back"
-            app:tint="#1E1E24" />
+            app:tint="@color/text_primary" />
 
         <!-- Tiêu đề Hồ sơ -->
         <TextView
@@ -36,7 +36,7 @@
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:text="Hồ sơ"
-            android:textColor="#1E1E24"
+            android:textColor="@color/text_primary"
             android:textSize="25sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:text="Tài khoản"
         android:textSize="15sp"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
         android:textStyle="bold"/>
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:text="Khách"
         android:textSize="18sp"
-        android:textColor="#1E1E24"
+        android:textColor="@color/text_primary"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"/>
 
@@ -71,7 +71,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="15dp"
         android:text="Họ và tên"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textSize="15sp"
         android:textStyle="bold"/>
 
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:text="Khách"
         android:textSize="18sp"
-        android:textColor="#1E1E24"
+        android:textColor="@color/text_primary"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp" />
 
@@ -93,7 +93,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="15dp"
         android:text="Mật khẩu"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textSize="15sp"
         android:textStyle="bold"/>
 
@@ -103,7 +103,7 @@
         android:layout_height="wrap_content"
         android:text="000000"
         android:textSize="18sp"
-        android:textColor="#1E1E24"
+        android:textColor="@color/text_primary"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp" />
 
@@ -114,7 +114,7 @@
         android:layout_height="wrap_content"
         android:text="Email"
         android:textSize="15sp"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="15dp"
         android:textStyle="bold"/>
@@ -125,7 +125,7 @@
         android:layout_height="wrap_content"
         android:text="Khach@gmail.com"
         android:textSize="18sp"
-        android:textColor="#1E1E24"
+        android:textColor="@color/text_primary"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp" />
 
@@ -137,7 +137,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="15dp"
         android:text="Số điện thoại"
-        android:textColor="#5E6E82"
+        android:textColor="@color/text_secondary"
         android:textSize="15sp"
         android:textStyle="bold"/>
 
@@ -148,7 +148,7 @@
         android:text="0000000000"
         android:layout_weight="1"
         android:textSize="18sp"
-        android:textColor="#1E1E24"
+        android:textColor="@color/text_primary"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp" />
 

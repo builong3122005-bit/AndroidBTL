@@ -4,7 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F6FA"
+    android:background="@color/background_main"
     android:orientation="vertical">
 
     <!-- Thanh công cụ (Toolbar) hiển thị tiêu đề và danh mục tin tức -->
@@ -13,9 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:title="Tin tức"
-        app:titleTextColor="#1E1E24"
+        app:titleTextColor="@color/text_primary"
         app:menu="@menu/bottom_menu_news"
-        android:background="#FFFFFF"
+        android:background="@color/nav_background"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Light"
         app:popupTheme="@style/PopupMenuStyle"
@@ -34,7 +34,7 @@
         android:id="@+id/bottomnavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="@color/nav_background"
         android:elevation="8dp"
         app:menu="@menu/bottom_menu"
         app:itemIconTint="@color/nav_item_color"
