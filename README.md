@@ -172,9 +172,10 @@ Mã nguồn Java được chia thành **13 gói con (sub-packages)** bên dướ
 
 Thiết kế chế độ sáng tối của ứng dụng sử dụng cơ chế tài nguyên động của hệ điều hành Android (Dynamic Theme Resources):
 1. **Bảng màu:**
-   - Chế độ Sáng định nghĩa các màu sắc nền trắng, chữ đen trong tệp `app/src/main/res/values/colors.xml`.
-   - Chế độ Tối định nghĩa các màu nền xám tối, chữ trắng trong tệp `app/src/main/res/values-night/colors.xml`.
-2. **Mã XML Layout:** Tất cả các tệp XML layout không sử dụng mã màu hex cứng (ví dụ: `#FFFFFF`), thay vào đó sử dụng biến tài nguyên như `@color/background_primary` hay `@color/text_primary` để tự động đổi màu khi theme thay đổi.
+   - Chế độ Sáng định nghĩa các màu sắc nền trắng, chữ đen trong tệp `app/src/main/res/values/colors.xml` (`background_main` là `#F5F6FA`, `text_primary` là `#1E1E24`, `item_background` là `#FFFFFF`).
+   - Chế độ Tối định nghĩa các màu nền xám tối, chữ trắng trong tệp `app/src/main/res/values-night/colors.xml` (`background_main` là `#121212`, `text_primary` là `#E5E7EB`, `item_background` là `#1F1F1F`).
+2. **Mã XML Layout:** Tất cả các tệp XML layout (Đăng nhập, Đăng ký, Tin tức, Hồ sơ và toàn bộ các Dialog cài đặt/đổi mật khẩu) không sử dụng mã màu hex cứng (ví dụ: `#FFFFFF`), thay vào đó sử dụng biến tài nguyên như `@color/background_main`, `@color/item_background`, `@color/text_primary`, `@color/text_secondary` để tự động đổi màu khi theme thay đổi.
+3. **Lưu ý đặc biệt cho bàn phím số giả lập:** Do các phím số sử dụng drawable nền gradient trắng-xám cố định (`custom_button1`) để giữ tính thẩm mỹ cao, màu chữ của các phím số này được đặt cố định là màu tối `#1E1E24` thay vì dùng màu động. Điều này giúp chữ số hiển thị rõ nét trên phím bấm trong cả chế độ Dark Mode.
 
 ---
 
