@@ -66,9 +66,6 @@ public class ThongTinCacQuocGiaADapter extends RecyclerView.Adapter<ThongTinCacQ
             super(itemView);
             tenQuocGia = itemView.findViewById(R.id.txtTenQuocGia);
             maTienTe = itemView.findViewById(R.id.txtMaTienTe);
-            hinhQuocGia = itemView.findViewById(R.id.imgContentFlag || R.id.imgAnhNuoc);
-            // Let's use the exact view IDs from the original view_file:
-            // R.id.imgAnhNuoc is used in the original.
             hinhQuocGia = itemView.findViewById(R.id.imgAnhNuoc);
         }
     }
